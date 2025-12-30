@@ -34,7 +34,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <button onClick={() => onNavigate('privacy')} className="hover:text-neonBlue transition-colors">Privacy Architecture</button>
           <button onClick={() => onNavigate('ethics')} className="hover:text-neonPurple transition-colors">Ethical Framework</button>
           <button onClick={() => onNavigate('media')} className="hover:text-neonEmerald transition-colors">Media Kit</button>
-          <span className="text-white/20">© 2025 EXM CORP</span>
+          <span className="text-white/20">© 2025</span>
         </div>
       </div>
     </footer>
